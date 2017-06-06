@@ -91,6 +91,7 @@ $ git add .
 ```
 Your changes are now staged for commit.
 ```
+$ git status
 On branch my-local-branch
 Your branch is up-to-date with 'origin/my-local-branch'.
 Changes to be committed:
