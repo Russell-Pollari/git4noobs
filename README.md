@@ -127,7 +127,18 @@ The changes you've made are only on your local repository. Push your branch to t
 ```
 git push origin my-local-branch
 ```
-`origin` is an alias for the remote repository which was automatically created for you when cloned the repo.
+Your branch is now on the remote repository.
+
+**n00b tip:** `origin` is an alias for the remote repository which was automatically created when you cloned the repo.
+
+## Create a pull-request
+You've almost contributed to this tutorial repository, the last step is to merge your branch with `master`.
+
+**n00b tip:** `master` is the name conventionally given to a repository's main, production-ready branch. When you create a new git repository, `master` is the default name for the original branch.
+
+But this ain't your repo! `master` is a protected branch. To prevent hooligans from pushing code-breaking commits to it, you must submit a pull-request to be approved by me before it can be merged.
+
+Find the <kbd>New pull request</kdb> button, and create a pull request merging your branch into master.
 
 ## Contributors
 1. Russell Pollari
