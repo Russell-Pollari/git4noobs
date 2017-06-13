@@ -138,7 +138,7 @@ You've almost contributed to this tutorial repository, the last step is to merge
 
 But this ain't your repo! `master` is a protected branch. To prevent hooligans from pushing code-breaking commits to it, you must submit a pull-request to be approved by me before it can be merged.
 
-On the GitHub page, find the <kbd>New pull request</kdb> button, and create a pull request merging your branch into master.
+On the GitHub page, find the <kbd>New pull request</kbd> button, and create a pull request merging your branch into master.
 
 Once it's approved, you can merge it from the pull request page.
 
@@ -157,6 +157,6 @@ Congrats you have succesfully contributed to a public git repo!
 To learn more advanced Git commands, the [Git docs](https://git-scm.com/docs) are
 a good place to start.
 
-If you feel like something was missing, or poorly explained, feel free to create a new pull-request with your changes. 
+If you feel like something was missing, or poorly explained, feel free to create a new pull-request with your changes.
 ## Contributors
 1. Russell Pollari
