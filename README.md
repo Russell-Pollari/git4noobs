@@ -22,14 +22,17 @@ To list all your git config values
 $ git config --global -l
 ```
 ## Clone this repository
-
 Make a local copy of this repository on your computer.
 
+Navigate and/or create a directory to keep your local repository.
 ```
 $ mkdir git-tutorials
 $ cd git-tutorials
 $ git clone https://github.com/Russell-Pollari/git4noobs.git
 ```
+**n00b tip**: the clone url can be found from the <kbd>Clone or download</kbd> button on the top right of the GitHub page.
+
+Navigate to the newly created directory.
 ```
 $ cd git4noobs
 $ git status
