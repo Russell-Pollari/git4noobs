@@ -42,19 +42,22 @@ nothing to commit, working directory clean
 ```
 
 ## Make a new branch
-
+List your repository's branches:
 ```
 $ git branch
 * master
 ```
+
+Create a new branch:
 ```
 $ git branch my-local-branch
 $ git checkout my-local-branch
 ```
-or
+or:
 ```
 $ git checkout -b my-local-branch
 ```
+You should now see your newly created branch in the list.
 ```
 $ git branch
   master
