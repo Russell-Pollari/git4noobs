@@ -64,17 +64,15 @@ $ git branch
 * my-local-branch
 ```
 
-
-## Edit README
+## Edit this README
 Time to make some changes to commit.  
-(Stop using that garbage text editor and get something better. At Yazabi, we all use [atom](https://atom.io/).)
 
-<!-- TODO: mini-lesson on README's / markdown -->
-Open up this README file
+Open README.md in your favourite editor.
 
-e.g. `$ atom README.md`
+**n00b tip:** Every repository should have a README file. It's what's displayed on the repo's GitHub page. This README is a [markdown file](https://learn.getgrav.org/content/markdown), which has an easy to use syntax for making your README look good. If your using [atom](https://atom.io/) for editing, you can preview a markdown file with <kbd>Ctl</kbd> + <kbd>Shift</kbd> + <kbd>m</kbd>.
 
-Add your name to the list at the end of this document.
+Add your name to the list at the end of this document and save.
+
 ## Make a commit
 after you save your change
 ```
