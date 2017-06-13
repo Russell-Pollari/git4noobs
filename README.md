@@ -74,7 +74,6 @@ Open README.md in your favourite editor.
 Add your name to the list at the end of this document and save.
 
 ## Make a commit
-after you save your change
 ```
 $ git status
 On branch my-local-branch
@@ -87,7 +86,7 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
-stage your changes for commit
+Stage your changes for commit
 ```
 $ git add README.md
 ```
@@ -105,7 +104,7 @@ Changes to be committed:
 
 	modified:   README.md
 ```
-Now commit with a clear, concise message.
+Now, commit with a clear, concise message:
 ```
 $ git commit -m "Add name to contributors"
 ```
@@ -116,8 +115,7 @@ You can take a look at the commit history using:
 ```
 $ git log
 ```  
-(noob tip: use <kbd>enter</kbd> to scroll and <kbd>q</kbd> to exit)  
-
+**n00b tip:** use <kbd>enter</kbd> to scroll and <kbd>q</kbd> to exit)  
 
 Most `git` commands have alot of options. For example, for a prettier view of the commit/branch history:
 ```
@@ -125,7 +123,7 @@ $ git  log --oneline --graph
 ```
 ## Push your changes to remote
 
-The changes you've made are only on your local repository.
+The changes you've made are only on your local repository. Push your branch to the remote repository:
 ```
 git push origin my-local-branch
 ```
