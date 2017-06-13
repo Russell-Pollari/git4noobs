@@ -23,13 +23,15 @@ $ git config --global -l
 ```
 ## Clone this repository
 
-Make local copy of this repository on your computer.
+Make a local copy of this repository on your computer.
 
 ```
 $ mkdir git-tutorials
 $ cd git-tutorials
-$ git clone https://github.com/Russell-Pollari/hello-world.git
-$ cd hello-world
+$ git clone https://github.com/Russell-Pollari/git4noobs.git
+```
+```
+$ cd git4noobs
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
