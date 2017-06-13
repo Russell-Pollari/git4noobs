@@ -131,14 +131,32 @@ Your branch is now on the remote repository.
 
 **n00b tip:** `origin` is an alias for the remote repository which was automatically created when you cloned the repo.
 
-## Create a pull-request
+## Create a pull request
 You've almost contributed to this tutorial repository, the last step is to merge your branch with `master`.
 
 **n00b tip:** `master` is the name conventionally given to a repository's main, production-ready branch. When you create a new git repository, `master` is the default name for the original branch.
 
 But this ain't your repo! `master` is a protected branch. To prevent hooligans from pushing code-breaking commits to it, you must submit a pull-request to be approved by me before it can be merged.
 
-Find the <kbd>New pull request</kdb> button, and create a pull request merging your branch into master.
+On the GitHub page, find the <kbd>New pull request</kdb> button, and create a pull request merging your branch into master.
 
+Once it's approved, you can merge it from the pull request page.
+
+## Update your local repository
+The merge to `master` only happened on the remote repo. To update your local repository:
+
+```
+$ git checkout master
+$ git fetch -p
+$ git merge
+```
+
+## Conclusion
+
+Congrats you have succesfully contributed to a public git repo!
+To learn more advanced Git commands, the [Git docs](https://git-scm.com/docs) are
+a good place to start.
+
+If you feel like something was missing, or poorly explained, feel free to create a new pull-request with your changes. 
 ## Contributors
 1. Russell Pollari
