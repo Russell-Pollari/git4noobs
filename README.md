@@ -121,6 +121,7 @@ Most `git` commands have alot of options. For example, for a prettier view of th
 ```
 $ git  log --oneline --graph
 ```
+Use `-h` to get help on any git command (e.g. `$ git -h` or `$ git commit -h`)
 ## Push your changes to remote
 
 The changes you've made are only on your local repository. Push your branch to the remote repository:
