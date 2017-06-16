@@ -161,3 +161,4 @@ a good place to start.
 If you feel like something was missing, or poorly explained, feel free to create a new pull-request with your changes.
 ## Contributors
 1. Russell Pollari
+1. Joe Test 
