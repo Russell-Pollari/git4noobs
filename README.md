@@ -21,16 +21,23 @@ To list all your git config values
 ```
 $ git config --global -l
 ```
-## Clone this repository
+
+## Fork this repository
+In the top-right corner of the page, click **Fork**.
+
+This creates a copy of this repository which you can freely experiment with.  
+
+## Clone your forked repository
 Make a local copy of this repository on your computer.
 
-Navigate and/or create a directory to keep your local repository.
+On GitHub, navigate to your forked repository.  
+On you computer, navigate to and/or create a directory to store your local repository.
 ```
 $ mkdir git-tutorials
 $ cd git-tutorials
-$ git clone https://github.com/Russell-Pollari/git4noobs.git
+$ git clone <clone URL>
 ```
-**n00b tip**: the clone url can be found from the <kbd>Clone or download</kbd> button on the top right of the GitHub page.
+**n00b tip**: the `clone URL` can be found from the <kbd>Clone or download</kbd> button on the top right of the GitHub page.
 
 Navigate to the newly created directory.
 ```
