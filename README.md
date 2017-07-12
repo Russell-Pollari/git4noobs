@@ -12,8 +12,8 @@ Git is best utilized [on the command line](https://git-scm.com/book/en/v2/Gettin
 
 ## Configure git
 ```
-$ git config --global user.name="<your-name-here>"
-$ git config --global user.email="<your-email-here>"
+$ git config --global user.name "<your-name-here>"
+$ git config --global user.email "<your-email-here>"
 ```
 The global tag means these will be used by default in all of your local respositories. Each git repo also has a local config which can be accessed by replacing `--global` with `--local`.
 
@@ -161,6 +161,5 @@ a good place to start.
 If you feel like something was missing, or poorly explained, feel free to create a new pull-request with your changes.
 ## Contributors
 1. Russell Pollari
-1. Joe Test 
+1. Joe Test
 1. Ben Geraedts
-
