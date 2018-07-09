@@ -121,7 +121,7 @@ Stage your changes for commit (aka yes I want to keep these changes)
 ```
 $ git add README.md
 ```
-You can discard changes from your woeking directory
+You can discard changes from your working directory
 ```
 $ git checkout README.md
 ```
@@ -192,3 +192,4 @@ If you feel like something was missing, or poorly explained, feel free to create
 - Russell Pollari
 - Joe Test
 - Ben Geraedts
+- Aruran Vijayaratnam
